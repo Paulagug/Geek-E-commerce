@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@1,300;1,500&family=Cormorant+SC:wght@300&family=Fascinate&family=Fredoka+One&family=Kanit:ital,wght@1,200&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Orbitron:wght@500&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/formulario-login/login.css" />
+    <link rel="stylesheet" href="css/footer/contacto.css" />
+    <link rel="stylesheet" href="css/rodapie/rodapie.css" />
+
+    
+  </head>
+  <body>
+    <header class="cabezera">
+      <a href="index.html" class="cabezera_caja1">
+      
+        <img
+          src="img/cabezera/cabezera-caja1/LogoAluraGeek.png"
+          alt="Logo Alura Geek"
+          class="cabezera_caja1__img"
+        />
+        <img
+          src="img/cabezera/cabezera-caja1/Alura.png"
+          alt="Alura"
+          class="cabezera_caja1__img"
+        />
+        <img
+          src="img/cabezera/cabezera-caja1/Geek.png"
+          alt="Geek"
+          class="cabezera_caja1__img"
+        />
+      
+      </a>
+
+      <div class="cabezera_caja2">
+        <input
+          type="text"
+          name="buscador"
+          id="buscador"
+          class="cabezera_caja2__buscador"
+          placeholder="¿Que buscas?"
+        />
+       <a href="#" class="cabezera_caja2__buttonBuscador">
+          <img
+            src="img/cabezera/cabezera-caja1/Buscador.png"
+            alt="icono buscar"
+            class="cabezera_caja2__imgBuscador"
+          />
+       </a>
+      </div>
+    </header>
+
+    <main class="login">
+      <form action="" class="login_form" id="form">
+        <h2 class="login_titulo">Iniciar sesión</h2>
+        <input
+          type="email"
+          name="nombre"
+          id="nombre"
+          class="login-inputNombre"
+          placeholder="Escriba su usuario"
+        />
+        <input
+          type="password"
+          id="password"
+          class="login_inputPassword"
+          placeholder="Escriba su contraseña"
+        />
+        <button type="submit" class="login_btnEntrar">Entrar</button>
+      </form>
+    </main>
+
+       <footer class="contacto">
+      <div class="contacto_caja1">
+        <a href="#" class="contacto_logo">
+          <img
+            class="contacto_img"
+            src="img/cabezera/cabezera-caja1/LogoAluraGeek.png"
+            alt=""
+          />
+          <img
+            class="contacto_img"
+            src="img/cabezera/cabezera-caja1/Alura.png"
+            alt=""
+          />
+          <img
+            class="contacto_img"
+            src="img/cabezera/cabezera-caja1/Geek.png"
+            alt=""
+          />
+        </a>
+        <a href="#" class="contacto_info">Quienes somos</a>
+        <a href="#" class="contacto_info">Politica de privacidad</a>
+        <a href="#" class="contacto_info">Programa de fidelidad</a>
+        <a href="#" class="contacto_info">Nuestras tiendas</a>
+        <a href="#" class="contacto_info">Quiero ser franquiciado</a>
+        <a href="#" class="contacto_info">Anuncie aqui</a>
+      </div>
+      <div class="contacto_caja2">
+        <form action="" class="contacto_form" id="formularioEnviarMensaje">
+          <label class="contacto_label">Hable con nosotros</label>
+          <input class="contacto_input" type="text" maxlength="40" minlength="3" placeholder="Nombre" required />
+          <textarea
+            minlength="3"
+            maxlength="120"
+            required
+            class="contacto_textarea"
+            cols="15"
+            rows="5"
+            placeholder="Escribe un mensaje"
+          ></textarea>
+          <button class="contacto_btn" type="submit">Enviar Mensaje</button>
+        </form>
+      </div>
+      </footer>
+        <div class="rodapie">
+          <h2 class="rodapie_titulo">
+            Desarrollado por Pablo Gaston Medina 2022
+          </h2>
+        </div>
+      </div>
+  </body>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="validaciones/validarMensaje.js"></script>
+ <script src="validaciones/validarLogin.js"></script>
+</html>

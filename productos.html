@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@1,300;1,500&family=Cormorant+SC:wght@300&family=Fascinate&family=Fredoka+One&family=Kanit:ital,wght@1,200&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Orbitron:wght@500&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/cabezera/cabezera.css" />
+    <link rel="stylesheet" href="css/cabezera/cabezera-caja1.css" />
+    <link rel="stylesheet" href="css/cabezera/cabezera-caja2.css" />
+    <link rel="stylesheet" href="css/productos/productos.css">
+    <link rel="stylesheet" href="css/footer/contacto.css" />
+    <link rel="stylesheet" href="css/rodapie/rodapie.css" />
+  </head>
+  <body>
+    <header class="cabezera">
+      <div class="cabezera_caja1">
+        <a href="index.html" class="cabezera_caja1__figura">
+          <img
+            src="img/cabezera/cabezera-caja1/LogoAluraGeek.png"
+            alt="Logo Alura Geek"
+            class="cabezera_caja1__img"
+          />
+          <img
+            src="img/cabezera/cabezera-caja1/Alura.png"
+            alt="Alura"
+            class="cabezera_caja1__img"
+          />
+          <img
+            src="img/cabezera/cabezera-caja1/Geek.png"
+            alt="Geek"
+            class="cabezera_caja1__img"
+          />
+        </a>
+        <div class="cabezera_caja1__search">
+          <input
+            type="text"
+            name="buscador"
+            id="buscador"
+            class="cabezera_caja1__buscador"
+            placeholder="¿Que buscas?"
+          />
+          <a href="#" class="cabezera_caja1_buscadorBtn">
+            <img
+              src="img/cabezera/cabezera-caja1/Buscador.png"
+              alt="icono buscar"
+              class="cabezera_caja1__imgBuscador"
+            />
+          </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="todosProductos">
+            <div class="todosProductos_principal">
+                <h2 class="todosProductos_principal_titulo">Todos los productos</h2>  
+                <a class="todosProductos_principal_btn" href="agregar-producto.html">Agregar producto</a>
+            </div>
+
+            <div class="todosProductos_productos" id="contenedorTodosLosProductos"> 
+
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer class="contacto">
+      <div class="contacto_caja1">
+        <a href="#" class="contacto_logo">
+          <img
+            class="contacto_img"
+            src="img/cabezera/cabezera-caja1/LogoAluraGeek.png"
+            alt=""
+          />
+          <img
+            class="contacto_img"
+            src="img/cabezera/cabezera-caja1/Alura.png"
+            alt=""
+          />
+          <img
+            class="contacto_img"
+            src="img/cabezera/cabezera-caja1/Geek.png"
+            alt=""
+          />
+        </a>
+        <a href="#" class="contacto_info">Quienes somos</a>
+        <a href="#" class="contacto_info">Politica de privacidad</a>
+        <a href="#" class="contacto_info">Programa de fidelidad</a>
+        <a href="#" class="contacto_info">Nuestras tiendas</a>
+        <a href="#" class="contacto_info">Quiero ser franquiciado</a>
+        <a href="#" class="contacto_info">Anuncie aqui</a>
+      </div>
+      <div class="contacto_caja2">
+        <form action="" id="formularioEnviarMensaje" class="contacto_form" >
+          <label class="contacto_label">Hable con nosotros</label>
+          <input class="contacto_input" id="contactoInput" type="text" placeholder="Nombre" required maxlength="40" />
+          <textarea
+            maxlength="120"
+            required
+            class="contacto_textarea"
+            name=""
+            id=""
+            cols="15"
+            rows="5"
+            placeholder="Escribe un mensaje"
+          ></textarea>
+          <button class="contacto_btn" type="submit">Enviar Mensaje</button>
+        </form>
+      </div>
+      </footer>
+        <div class="rodapie">
+          <h2 class="rodapie_titulo">
+            Desarrollado por Pablo Gaston Medina 2022
+          </h2>
+        </div>
+      </div>
+    
+  </body>
+  <!-- type moduel para poder trabajra con export e import -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="validaciones/validarMensaje.js"></script>
+  <script type="module" src="services/productoServicio.js"></script>
+  <script type="module" src="controles/controles.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>

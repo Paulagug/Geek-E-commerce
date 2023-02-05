@@ -1,0 +1,164 @@
+{
+  "prod": [
+    {
+      "img": "/img/cuerpo/Star wars/Star wars 1.png",
+      "nombre": "Produxto XYZ",
+      "precio": "$ 500",
+      "categoria": "Star Wars",
+      "descripcion": "lorem",
+      "id": "1"
+    },
+    {
+      "img": "/img/cuerpo/Star wars/Star wars 2.png",
+      "nombre": "Produxto XY",
+      "precio": "$ 1.000",
+      "categoria": "Star Wars",
+      "descripcion": "lorem",
+      "id": "2"
+    },
+    {
+      "img": "/img/cuerpo/Star wars/Star wars 3.png",
+      "nombre": "Produxto XYY",
+      "precio": "$ 600",
+      "categoria": "Star Wars",
+      "descripcion": "lorem",
+      "id": "3"
+    },
+    {
+      "img": "/img/cuerpo/Star wars/Star wars 4.png",
+      "nombre": "Produxto XYX",
+      "precio": "$ 1900",
+      "categoria": "Star Wars",
+      "descripcion": "lorem",
+      "id": "4"
+    },
+    {
+      "img": "/img/cuerpo/Star wars/Star wars 5.png",
+      "nombre": "Produxto ZXY",
+      "precio": "$ 200",
+      "categoria": "Star Wars",
+      "descripcion": "lorem",
+      "id": "5"
+    },
+    {
+      "img": "/img/cuerpo/Star wars/Star wars 6.png",
+      "nombre": "Produxto YZ",
+      "precio": "$ 10.000",
+      "categoria": "Star Wars",
+      "descripcion": "lorem",
+      "id": "6"
+    },
+    {
+      "img": "/img/cuerpo/Consolas/consola 1.png",
+      "nombre": "Control XYZ",
+      "precio": "$ 500",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "7"
+    },
+    {
+      "img": "/img/cuerpo/Star wars/Star wars 2.png",
+      "nombre": "Produxto XY",
+      "precio": "$ 500",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "8"
+    },
+    {
+      "img": "/img/cuerpo/Consolas/consola 2.png",
+      "nombre": "Cotrol y Consola XY",
+      "precio": "$ 1.000",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "9"
+    },
+    {
+      "img": "/img/cuerpo/Consolas/consola 3.png",
+      "nombre": "Consola XYY",
+      "precio": "$ 600",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "10"
+    },
+    {
+      "img": "/img/cuerpo/Consolas/consola 5.png",
+      "nombre": "Consola ZXY",
+      "precio": "$ 200",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "11"
+    },
+    {
+      "img": "/img/cuerpo/Consolas/consola 6.png",
+      "nombre": "Game Boy Color",
+      "precio": "$ 10.000",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "12"
+    },
+    {
+      "img": "/img/cuerpo/Diversos/diversos 1.png",
+      "nombre": "Camisa Atari",
+      "precio": "$ 500",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "13"
+    },
+    {
+      "img": "/img/cuerpo/Diversos/diversos 2.png",
+      "nombre": "Camisa Snes",
+      "precio": "$ 1.000",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "14"
+    },
+    {
+      "img": "/img/cuerpo/Diversos/diversos 3.png",
+      "nombre": "Juguete Sony",
+      "precio": "$ 600",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "15"
+    },
+    {
+      "img": "/img/cuerpo/Diversos/diversos 4.png",
+      "nombre": "Consola FS",
+      "precio": "$ 1.900",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "16"
+    },
+    {
+      "img": "/img/cuerpo/Diversos/diversos 5.png",
+      "nombre": "Uculus",
+      "precio": "$ 200",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "17"
+    },
+    {
+      "img": "/img/cuerpo/Diversos/diversos 6.png",
+      "nombre": "Pikachu LX",
+      "precio": "$ 10.000",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "18"
+    },
+    {
+      "img": "https://w7.pngwing.com/pngs/114/579/png-transparent-pink-cross-stroke-ink-brush-pen-red-ink-brush-ink-leave-the-material-text.png",
+      "nombre": "Auto feo",
+      "precio": "100000",
+      "categoria": "vehiculo",
+      "descripcion": "lorem imput",
+      "id": "7bdafb46-4b4c-4e49-ae10-c738ccc70626"
+    },
+    {
+      "img": "https://w1.pngwing.com/pngs/642/237/png-transparent-box-toy-play.png",
+      "nombre": "Caja juguetes",
+      "precio": "223",
+      "categoria": "consolas",
+      "descripcion": "lorem",
+      "id": "c5a83c5d-943d-4b1c-897e-a75433c9efb4"
+    }
+  ]
+}

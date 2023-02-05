@@ -1,0 +1,63 @@
+.cuerpo_caja__2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cuerpo_caja__2producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .4s;
+}
+
+.cuerpo_caja__2imagen{
+    width: 90%;
+    height: 90%;
+    margin-bottom: 1rem;
+}
+
+.cuerpo_caja__2titulo{
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+.cuerpo_caja__2precio{
+    margin-bottom: .2rem;
+    font-weight: 700;
+}
+
+.cuerpo_caja__2enlace{
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color: #2A7AE4;
+    transition: .4s;
+}
+
+@media screen and (min-width: 480px) {
+    .cuerpo_caja__2{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+
+@media screen and (min-width: 720px) {
+    .cuerpo_caja__2 {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+     .cuerpo_caja__2producto:hover{
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        transition: .4s;
+        transform: scale(1.1);
+     }
+
+    .cuerpo_caja__2enlace{
+         font-weight: 700;
+         font-size: 1.2rem;
+     }
+
+    .cuerpo_caja__2enlace:hover{
+        transform: scale(1.2);
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,32 @@
+.cuerpo_caja__1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.cuerpo_caja__1titulo{
+    font-weight: 900;
+    font-size: 1.8rem;
+    font-family: 'Cormorant SC', serif;
+}
+
+.cuerpo_caja__1verMas{
+    font-size: 1.2rem;
+    color: #2A7AE4 ;
+    text-decoration: none;
+    transition: .3s;
+}
+
+@media screen and (min-width: 720px) {
+    .cuerpo_caja__1titulo{
+        font-size: 1.9rem;
+    }
+    .cuerpo_caja__1verMas{
+        font-size: 1.3rem;
+    }
+    .cuerpo_caja__1verMas:hover{
+        transition: .3s;
+        font-size:1.4rem ;
+    }
+}

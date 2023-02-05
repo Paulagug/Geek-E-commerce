@@ -1,0 +1,10 @@
+.cuerpo_cajas{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 720px){
+    .cuerpo_cajas{
+        margin-bottom: 2rem;
+    }
+}

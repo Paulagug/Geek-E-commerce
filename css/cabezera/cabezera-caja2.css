@@ -1,0 +1,60 @@
+.cabezera_caja2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../img/cabezera/cabezera-caja2/Banner-aluraWeek.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+}
+
+.cabezera_caja2__titulo{
+  color: whitesmoke;
+  letter-spacing: .2rem;
+  margin: 1.1rem;
+  font-size: 1.5rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.cabezera_caja3__subtitulo{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .1rem;
+  font-size: .9rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.cabezera_caja2__enlace{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 2px solid #2A7AE4;
+  background-color: #2A7AE4;
+  padding: 1rem;
+  transition: .4s;
+}
+
+@media screen and (min-width: 720px) {
+  .cabezera_caja2{
+    height: 18rem;
+  }
+  .cabezera_caja2__titulo{
+      font-size: 2rem;
+  }
+
+  .cabezera_caja3__subtitulo{
+    font-size: 1.3rem;
+  }
+  .cabezera_caja2__enlace{
+    font-size: 1.3rem;
+  }
+    .cabezera_caja2__enlace:hover{
+      background-color: aliceblue;
+      color: #2A7AE4;
+      transition: .4s;
+      border-radius: .8rem;
+    }
+}

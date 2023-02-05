@@ -1,0 +1,180 @@
+/*HEADER*/
+.cabezera{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.cabezera_caja1{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabezera_caja1__img{
+   width: 3rem;
+}
+
+.cabezera_caja2{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+}
+
+.cabezera_caja2__buscador{
+  display: none;
+}
+
+.cabezera_caja2_buscadorBtn{
+    width: 5rem;
+}
+
+@media screen and (min-width: 720px){
+    .cabezera_caja2{
+      background-color: #e5e5e5;
+      align-self: center;
+      border-radius: 50px;
+      display: flex;
+      justify-content: space-between;
+      padding: .75rem;
+      width: 20%;
+      margin-right: 100px;
+    }
+     .cabezera_caja2__buscador{
+      display: flex;
+      background: none;
+      border: none;
+      margin: 0%;
+      outline: none;
+      padding: 0%;
+      width: 100%;
+     }
+}
+
+
+/*MAIN*/
+
+.login{
+    background-color: #E5E5E5;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.login_form{
+    background-color: #e5e5e5 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_titulo{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.login-inputNombre{
+    margin-bottom: .6rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.login-inputNombre::placeholder {
+   font-size: 1rem;
+}
+
+.login_inputPassword{
+    margin-bottom: .6rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.login_inputPassword::placeholder{
+    font-size: 1rem;
+}
+
+.login_btnEntrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 6rem;
+    font-size:1.4rem ;
+    font-weight: 700;
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    transition: .5s;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 720px) {
+    .login_btnEntrar:hover{
+       transition: .5s;
+       transform: scale(1.2);
+       border-radius: 10px;
+       box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (min-width: 960px){
+
+    .login {
+        
+            padding-top: 9rem;
+            padding-bottom: 9rem;
+        }
+
+    .login_titulo{
+        font-size: 2.5rem;
+    }
+
+
+    .login-inputNombre, .login_inputPassword {
+        height: 2.7rem;
+        font-size: 1.6rem;
+        border-radius: 6px;
+    }
+    .login_btnEntrar{
+        width: 10rem;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    .login_titulo {
+        font-size: 2.8rem;
+    }
+
+    .login-inputNombre,
+    .login_inputPassword {
+        height: 4rem;
+        font-size: 2rem;
+        border-radius: 6px;
+    }
+
+    .login-inputNombre::placeholder,
+    .login_inputPassword::placeholder{
+         font-size: 1.5rem;
+    }
+    .login_btnEntrar {
+        width: 11rem;
+        height: 3rem;
+        font-size: 1.6rem;
+    }
+}
